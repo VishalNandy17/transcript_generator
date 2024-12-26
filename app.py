@@ -3,7 +3,6 @@ import streamlit as st
 import sys
 import json
 from datetime import datetime
-import nltk
 from nltk.tokenize import sent_tokenize, word_tokenize
 from nltk.tag import pos_tag
 from nltk.chunk import ne_chunk
